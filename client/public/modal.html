@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .slidebar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 100vh;
+            width: 300px;
+            background-color: green;
+
+        }
+
+        .content {
+            margin-left: 300px;
+        }
+
+        .modal-body {
+            background-color: white;
+            margin: auto;
+            height: 30%;
+            width: 30%;
+        }
+
+        .modal {
+            width: 100%;
+            height: 100%;
+            position: fixed;
+            background-color: gray;
+            left: 0;
+            top: 0;
+            z-index: 10;
+        }
+
+
+    </style>
+
+</head>
+
+<body>
+   
+        <div class="modal">
+            <div class="modal-body">
+                <h1>I am Modal</h1>
+            </div>
+        </div>
+
+    <div class="slidebar">
+        I am slidebar
+    </div>
+    <div class="content">
+        <h1>
+            I am Some Content
+        </h1>
+    </div>
+</body>
+
+</html>

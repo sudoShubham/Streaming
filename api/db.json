@@ -1,0 +1,16 @@
+{
+  "streams": [
+    {
+      "Title": "GTA Vice City",
+      "Description": "Game",
+      "userId": "106599253857153825040",
+      "id": 1
+    },
+    {
+      "Title": "C++",
+      "Description": "Programming",
+      "userId": "106599253857153825040",
+      "id": 2
+    }
+  ]
+}
